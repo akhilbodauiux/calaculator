@@ -1,7 +1,7 @@
 import React,{useState} from 'react'
 import "./Calculator.css"
 function Calculator() {
-    const[value,setValue]=useState();
+    const[value,setValue]=useState('');
     
   return (
     <div className='container'>
